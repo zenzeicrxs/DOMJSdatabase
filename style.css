@@ -1,0 +1,55 @@
+body {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+    background-color: orange;
+
+}
+
+.container {
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 15px;
+    width: 600px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    border: solid 3px orange;
+}
+
+.judul {
+    background-color: green;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    border: 1px solid;
+    border-color: darkgray;
+    width: 600px;
+    border-radius: 2px;
+}
+
+.isi {
+    background-color: whitesmoke;
+    text-align: center;
+    color: black;
+    font-weight: normal;
+    margin: 0px;
+    border: 1px solid;
+    border-color: darkgray;
+    width: 600px;
+    border-radius: 2px;
+
+
+}

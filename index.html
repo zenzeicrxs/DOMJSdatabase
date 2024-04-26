@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <script>
+        function showLogin() {
+
+        let welcome = confirm('Selamat Datang di Website DashBoard!');
+        if (welcome) {
+        let username = prompt('Masukkan Username Anda');
+        let pass = prompt('Masukkan Password Anda');
+
+        if (username == 'syarif' &&  pass == 123) {
+            alert('Login Berhasil. Selamat Datang');
+        
+
+        
+        let Nama = prompt('Masukkan nama anda!')
+        let Hobi = prompt('Masukkan Hobi anda!')
+        let Film = prompt('Masukkan Film anda!')
+        let Umur = prompt('Masukkan Umur anda!')
+        let Alamat = prompt('Masukkan Alamat anda!')
+        let Email = prompt('Masukkan Email anda!')
+
+
+
+            document.write("<div class=container>");
+
+                document.write("<img src=profile.jpeg + <br>");
+                document.write("<div class=konten>");
+                    document.write("<h3 class=judul>Nama</h3>");
+                    document.write("<h3 class=isi>" + Nama + "</h3>");
+                    
+                    document.write("<h3 class=judul>Hobi</h3>");
+                    document.write("<h3 class=isi>" + Hobi + "</h3>");
+
+                    document.write("<h3 class=judul>Film Favorit</h3>");
+                    document.write("<h3 class=isi>" + Film + "</h3>");
+
+                    document.write("<h3 class=judul>Umur</h3>");
+                    document.write("<h3 class=isi>" + Umur + "</h3>");
+
+                    document.write("<h3 class=judul>Alamat</h3>");
+                    document.write("<h3 class=isi>" + Alamat + "</h3>");
+
+                    document.write("<h3 class=judul>Email</h3>");
+                    document.write("<h3 class=isi>" + Email + "</h3>");
+                document.write("</div>");
+                
+            document.write("</div>");
+
+
+        } else {
+            alert('Password Salah')
+            showLogin(); // Show login popup again
+   
+        }
+    } else {
+        alert('Anda membatalkan login.'); 
+    }
+}   
+    showLogin(); // Initial call to show the login popup
+    
+    </script>
+</body>
+</html>
+
+                
