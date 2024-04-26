@@ -3,7 +3,7 @@ DATABASE
 ID syarif
 PASS 123
 
-![image](https://github.com/zenzeicrxs/DOMJSdatabase/assets/59620860/8bfa1d4b-fcbb-4369-b9fb-fadcd4c47db4)
-![Uploading image.png…]()
+![image](https://github.com/zenzeicrxs/DOMJSdatabase/assets/59620860/55ab578c-7829-4e35-8bd7-a7b66e16f694)
+
 
 
